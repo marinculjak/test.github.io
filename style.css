@@ -1,0 +1,74 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /* Css tricks background  */
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(207, 226, 226);
+  /* text-transform: uppercase; */
+}
+/* body {
+  background: url(header.jpg);
+  background-size: 100%;
+  text-align: center;
+  margin-top: 260px;
+} */
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color:#F05F44;
+  border-color: #F05F44;
+}
+
+.btn-primary:hover {
+  background-color: #EE4B08;
+  border-color: #EE4B08;
+  border-width: 4px;
+}
+
+.landingbutton {
+  padding: 1rem 2rem;
+  /* width: 200px;
+  height: 50px;
+  background-color: rgba(214, 85, 11, 0.945);
+  border-radius: 25px;
+  margin: auto; */
+  
+}
+
+/* .landingbutton p { */
+  /* height: 100px; */
+  /* line-height: 50px;
+  vertical-align: top;
+}
+
+.landingbutton:hover {
+  transform: scale(1.025);
+
+} */
+
+hr {
+  /* margin-top: 120px;
+  margin-bottom: 20px; */
+  border: 1px solid rgba(214, 85, 11, 0.945);
+  width: 50px;
+}
+
+.Buffer {
+  height: 10rem;
+}
